@@ -1,0 +1,33 @@
+@import "{{ site.theme }}";
+
+/* Overriding the default serif font with a clean, modern sans-serif stack */
+body, h1, h2, h3, h4, h5, h6, p, table {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Video Grid Layout */
+.video-grid {
+    display: grid;
+    /* This creates 2 equal columns, but stacks them if the screen is smaller than 300px */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px; /* The space between the videos */
+    margin: 30px auto;
+    width: 100%;
+}
+
+/* Make sure videos fill their grid cells perfectly */
+.video-grid video {
+    width: 100%;
+    margin: 0; /* Overrides the previous spacing we set */
+    border-radius: 8px; /* Optional: adds a nice rounded corner to the videos */
+}
+
+/* Centers the Markdown table */
+table {
+    margin: 30px auto;
+    width: 80%;
+}
+
+th, td {
+    text-align: center;
+}
