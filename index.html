@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Project Paper Title</title>
+    <title>Solar Corona Video Prediction</title>
     <style>
         /* Base Paper Styling */
         body {
@@ -54,22 +54,18 @@
 </head>
 <body>
 
-    <h1>Your Project Paper Title</h1>
+    <h1>Comparing LSTM-Based Next-frame Prediction of Solar Corona Videos</h1>
     <h3>By Jane Doe and John Smith</h3>
 
     <p>
-        This is the abstract or introduction to your project paper. All of this text will be perfectly centered on a plain white background, using a clean modern font.
+        This project aims to replicate common recurrent models such as LSTM’s and ConvLSTM’s to get an idea about sequence modeling. First results indicate the power of convolutional LSTM, and the fragility of the complex problem space
     </p>
 
     <h2>Project Demonstration</h2>
 
+    <p> ConvLSTM_16 (vel.) videos (Sequential and Autoregressive) </p>
+
     <div class="video-grid">
-        <video autoplay loop muted playsinline>
-            <source src="assets/continuous_solar_validation.mp4" type="video/mp4">
-        </video>
-        <video autoplay loop muted playsinline>
-            <source src="assets/continuous_solar_validation_v3.mp4" type="video/mp4">
-        </video>
         <video autoplay loop muted playsinline>
             <source src="assets/continuous_solar_validation_v4.mp4" type="video/mp4">
         </video>
@@ -78,31 +74,81 @@
         </video>
     </div>
 
+    <details class="details-example">
+        <summary>ConvLSTM_128 videos (Sequential and Autoregressive)</summary>
+        <div class="video-grid">
+            <video autoplay loop muted playsinline>
+                <source src="assets/continuous_solar_validation_v5.mp4" type="video/mp4">
+            </video>
+            <video autoplay loop muted playsinline>
+                <source src="assets/continuous_solar_validation_v5_deep_rollout.mp4" type="video/mp4">
+            </video>
+        </div>
+    </details>
+
+    <details class="details-example">
+        <summary>LSTM and early ConvLSTM videos (Sequential)</summary>
+        <div class="video-grid">
+            <video autoplay loop muted playsinline>
+                <source src="assets/continuous_solar_validation.mp4" type="video/mp4">
+            </video>
+            <video autoplay loop muted playsinline>
+                <source src="assets/continuous_solar_validation_v3.mp4" type="video/mp4">
+            </video>
+        </div>
+    </details>
+
     <h2>Results</h2>
 
     <p>Below is a summary of our findings.</p>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Model / Metric</th>
-                <th>Accuracy</th>
-                <th>Loss</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Baseline Model</td>
-                <td>85.2%</td>
-                <td>0.45</td>
-            </tr>
-            <tr>
-                <td>Proposed Method</td>
-                <td>94.7%</td>
-                <td>0.12</td>
-            </tr>
-        </tbody>
+    <table style="border-collapse: collapse; width: 100%; max-width: 600px; font-family: sans-serif; text-align: left;">
+      <caption style="caption-side: top; text-align: left; font-weight: bold; margin-bottom: 8px;">
+        Next-frame forecasting performance on the validation set, averaged over the 5-frame prediction horizon.
+      </caption>
+      <thead>
+        <tr style="border-top: 2px solid black; border-bottom: 1px solid black;">
+          <th style="padding: 8px;">Model</th>
+          <th style="padding: 8px; text-align: right;">MAE &darr;</th>
+          <th style="padding: 8px; text-align: right;">PSNR (dB) &uarr;</th>
+          <th style="padding: 8px; text-align: right;">SSIM &uarr;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding: 8px;">LSTM</td>
+          <td style="padding: 8px; text-align: right;">0.0231</td>
+          <td style="padding: 8px; text-align: right;">30.08</td>
+          <td style="padding: 8px; text-align: right;">0.8549</td>
+        </tr>
+        <tr>
+          <td style="padding: 8px;">ConvLSTM-16</td>
+          <td style="padding: 8px; text-align: right;">0.0625</td>
+          <td style="padding: 8px; text-align: right;">22.60</td>
+          <td style="padding: 8px; text-align: right;">0.7720</td>
+        </tr>
+        <tr>
+          <td style="padding: 8px;">ConvLSTM-16 (vel.)</td>
+          <td style="padding: 8px; text-align: right;">0.0128</td>
+          <td style="padding: 8px; text-align: right;">34.45</td>
+          <td style="padding: 8px; text-align: right;">0.9533</td>
+        </tr>
+        <tr style="border-bottom: 1px solid black;">
+          <td style="padding: 8px;">ConvLSTM-128</td>
+          <td style="padding: 8px; text-align: right;"><strong>0.0087</strong></td>
+          <td style="padding: 8px; text-align: right;"><strong>38.10</strong></td>
+          <td style="padding: 8px; text-align: right;"><strong>0.9727</strong></td>
+        </tr>
+        <tr style="border-bottom: 2px solid black;">
+          <td style="padding: 8px;">Naive</td>
+          <td style="padding: 8px; text-align: right;">0.0097</td>
+          <td style="padding: 8px; text-align: right;">37.11</td>
+          <td style="padding: 8px; text-align: right;">0.9603</td>
+        </tr>
+      </tbody>
     </table>
+
+    The GitHub repository to recreate the findings is at this <a href="https://github.com/volgasezen/solar-corona-prediction/project">link</a>.
 
 </body>
 </html>

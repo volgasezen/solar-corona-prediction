@@ -1,0 +1,605 @@
+nohup: ignoring input
+1
+2
+3
+Done
+Epoch 0 done.
+Train loss: [0.45497148]
+Val loss: [0.33063808 4.05870819]
+Epoch 1 done.
+Train loss: [0.27782586]
+Val loss: [0.24409002 4.01653957]
+Epoch 2 done.
+Train loss: [0.19737134]
+Val loss: [0.17802763 3.89508343]
+Epoch 3 done.
+Train loss: [0.1511139]
+Val loss: [0.14698815 3.82168484]
+Epoch 4 done.
+Train loss: [0.12939735]
+Val loss: [0.13237959 3.87163734]
+Epoch 5 done.
+Train loss: [0.11712282]
+Val loss: [0.12358834 3.8633759 ]
+Epoch 6 done.
+Train loss: [0.11057025]
+Val loss: [0.11498632 3.8261559 ]
+Epoch 7 done.
+Train loss: [0.10426976]
+Val loss: [0.11029904 3.81493378]
+Epoch 8 done.
+Train loss: [0.09908884]
+Val loss: [0.11149583 3.82282948]
+Epoch 9 done.
+Train loss: [0.09549474]
+Val loss: [0.10101088 3.80890799]
+Epoch 10 done.
+Train loss: [0.09197327]
+Val loss: [0.09804264 3.78350306]
+Epoch 11 done.
+Train loss: [0.08753282]
+Val loss: [0.09388913 3.82246828]
+Epoch 12 done.
+Train loss: [0.08504932]
+Val loss: [0.09115633 3.84022331]
+Epoch 13 done.
+Train loss: [0.08333741]
+Val loss: [0.08910275 3.76141834]
+Epoch 14 done.
+Train loss: [0.07969326]
+Val loss: [0.0874117  3.82634854]
+Epoch 15 done.
+Train loss: [0.07726153]
+Val loss: [0.08468214 3.83974004]
+Epoch 16 done.
+Train loss: [0.07565625]
+Val loss: [0.08179362 3.81919646]
+Epoch 17 done.
+Train loss: [0.07362346]
+Val loss: [0.09081799 3.84602618]
+Epoch 18 done.
+Train loss: [0.07381673]
+Val loss: [0.07788    3.75686121]
+Epoch 19 done.
+Train loss: [0.06979508]
+Val loss: [0.07555707 3.83458614]
+Epoch 20 done.
+Train loss: [0.06949053]
+Val loss: [0.07460089 3.81195903]
+Epoch 21 done.
+Train loss: [0.06801973]
+Val loss: [0.07430999 3.82412434]
+Epoch 22 done.
+Train loss: [0.06571642]
+Val loss: [0.07130176 3.86863208]
+Epoch 23 done.
+Train loss: [0.06661287]
+Val loss: [0.07195569 3.78957677]
+Epoch 24 done.
+Train loss: [0.0640589]
+Val loss: [0.07038918 3.83990431]
+Epoch 25 done.
+Train loss: [0.06254287]
+Val loss: [0.07093564 3.89605761]
+Epoch 26 done.
+Train loss: [0.06452195]
+Val loss: [0.06866332 3.7723701 ]
+Epoch 27 done.
+Train loss: [0.06078218]
+Val loss: [0.06780791 3.86388278]
+Epoch 28 done.
+Train loss: [0.0600238]
+Val loss: [0.06631588 3.89000344]
+Epoch 29 done.
+Train loss: [0.05932456]
+Val loss: [0.06540795 3.89767432]
+Epoch 30 done.
+Train loss: [0.0587413]
+Val loss: [0.06535512 3.87897801]
+Epoch 31 done.
+Train loss: [0.05707791]
+Val loss: [0.0631767  3.90394521]
+Epoch 32 done.
+Train loss: [0.05655142]
+Val loss: [0.06300394 3.90636992]
+Epoch 33 done.
+Train loss: [0.05566069]
+Val loss: [0.06109292 3.91060066]
+Epoch 34 done.
+Train loss: [0.05577219]
+Val loss: [0.06118274 3.86855626]
+Epoch 35 done.
+Train loss: [0.0541703]
+Val loss: [0.05978654 3.89404345]
+Epoch 36 done.
+Train loss: [0.05330471]
+Val loss: [0.05946851 3.92391729]
+Epoch 37 done.
+Train loss: [0.05330208]
+Val loss: [0.05875701 3.89391994]
+Epoch 38 done.
+Train loss: [0.05214567]
+Val loss: [0.05806708 3.90622997]
+Epoch 39 done.
+Train loss: [0.05176677]
+Val loss: [0.05584523 3.91600323]
+Epoch 40 done.
+Train loss: [0.05097665]
+Val loss: [0.0565317  3.93027306]
+Epoch 41 done.
+Train loss: [0.05043176]
+Val loss: [0.05430134 3.91832113]
+Epoch 42 done.
+Train loss: [0.05045329]
+Val loss: [0.05403211 3.90994263]
+Epoch 43 done.
+Train loss: [0.04935977]
+Val loss: [0.05359847 3.92989016]
+Epoch 44 done.
+Train loss: [0.04896219]
+Val loss: [0.05398473 3.94852924]
+Epoch 45 done.
+Train loss: [0.04917938]
+Val loss: [0.05271968 3.92604017]
+Epoch 46 done.
+Train loss: [0.04792538]
+Val loss: [0.05355306 3.94909525]
+Epoch 47 done.
+Train loss: [0.04864286]
+Val loss: [0.05197716 3.9329958 ]
+Epoch 48 done.
+Train loss: [0.04727965]
+Val loss: [0.05219795 3.94883204]
+Epoch 49 done.
+Train loss: [0.04724818]
+Val loss: [0.05012537 3.94220829]
+Epoch 50 done.
+Train loss: [0.04667381]
+Val loss: [0.050444  3.9503684]
+Epoch 51 done.
+Train loss: [0.04700017]
+Val loss: [0.05035695 3.9333303 ]
+Epoch 52 done.
+Train loss: [0.0460191]
+Val loss: [0.04891876 3.9410007 ]
+Epoch 53 done.
+Train loss: [0.04575847]
+Val loss: [0.04983924 3.95594931]
+Epoch 54 done.
+Train loss: [0.04571239]
+Val loss: [0.04962922 3.95215511]
+Epoch 55 done.
+Train loss: [0.04488684]
+Val loss: [0.05081512 3.96368194]
+Epoch 56 done.
+Train loss: [0.04475331]
+Val loss: [0.04748352 3.96808314]
+Epoch 57 done.
+Train loss: [0.04442672]
+Val loss: [0.04830786 3.97267222]
+Epoch 58 done.
+Train loss: [0.04427135]
+Val loss: [0.04625764 3.96219015]
+Epoch 59 done.
+Train loss: [0.04366473]
+Val loss: [0.0471025  3.97448325]
+Epoch 60 done.
+Train loss: [0.04403422]
+Val loss: [0.04658647 3.95568323]
+Epoch 61 done.
+Train loss: [0.04353459]
+Val loss: [0.04876805 3.95599794]
+Epoch 62 done.
+Train loss: [0.0432261]
+Val loss: [0.04583155 3.95389891]
+Epoch 63 done.
+Train loss: [0.04255492]
+Val loss: [0.04651784 3.97825432]
+Epoch 64 done.
+Train loss: [0.04231569]
+Val loss: [0.04489061 3.98242426]
+Epoch 65 done.
+Train loss: [0.04259565]
+Val loss: [0.04507308 3.97712946]
+Epoch 66 done.
+Train loss: [0.04182704]
+Val loss: [0.04579426 3.98898816]
+Epoch 67 done.
+Train loss: [0.04198717]
+Val loss: [0.04496734 3.98151803]
+Epoch 68 done.
+Train loss: [0.04150264]
+Val loss: [0.04460046 3.98608589]
+Epoch 69 done.
+Train loss: [0.04187487]
+Val loss: [0.04357185 3.95977998]
+Epoch 70 done.
+Train loss: [0.04055724]
+Val loss: [0.04293777 3.99033046]
+Epoch 71 done.
+Train loss: [0.04175684]
+Val loss: [0.04319345 3.96570587]
+Epoch 72 done.
+Train loss: [0.04044243]
+Val loss: [0.04213738 3.97670293]
+Epoch 73 done.
+Train loss: [0.03999032]
+Val loss: [0.04302457 4.00357962]
+Epoch 74 done.
+Train loss: [0.04083303]
+Val loss: [0.04275782 3.97511482]
+Epoch 75 done.
+Train loss: [0.03985]
+Val loss: [0.04215384 3.98577905]
+Epoch 76 done.
+Train loss: [0.03972366]
+Val loss: [0.04145861 4.00446367]
+Epoch 77 done.
+Train loss: [0.03984064]
+Val loss: [0.04153473 3.99124002]
+Epoch 78 done.
+Train loss: [0.03917684]
+Val loss: [0.04428566 4.00448513]
+Epoch 79 done.
+Train loss: [0.03920961]
+Val loss: [0.04163416 4.00686741]
+Epoch 80 done.
+Train loss: [0.03908745]
+Val loss: [0.04164543 4.01305866]
+Epoch 81 done.
+Train loss: [0.03918447]
+Val loss: [0.04111789 3.99033308]
+Epoch 82 done.
+Train loss: [0.03835721]
+Val loss: [0.04110266 4.0206418 ]
+Epoch 83 done.
+Train loss: [0.03877414]
+Val loss: [0.04003333 4.00190878]
+Epoch 84 done.
+Train loss: [0.03832372]
+Val loss: [0.03996547 4.00997257]
+Epoch 85 done.
+Train loss: [0.03814807]
+Val loss: [0.03982886 4.02135897]
+Epoch 86 done.
+Train loss: [0.03803886]
+Val loss: [0.04021311 4.01519156]
+Epoch 87 done.
+Train loss: [0.03805382]
+Val loss: [0.04047145 4.01778889]
+Epoch 88 done.
+Train loss: [0.03763284]
+Val loss: [0.04075037 4.01242447]
+Epoch 89 done.
+Train loss: [0.03741168]
+Val loss: [0.04096567 4.02145338]
+Epoch 90 done.
+Train loss: [0.03760196]
+Val loss: [0.0391284  4.01407528]
+Epoch 91 done.
+Train loss: [0.03719113]
+Val loss: [0.03876638 4.01994419]
+Epoch 92 done.
+Train loss: [0.0377197]
+Val loss: [0.03922229 4.01273489]
+Epoch 93 done.
+Train loss: [0.03684071]
+Val loss: [0.03864514 4.01396608]
+Epoch 94 done.
+Train loss: [0.03682687]
+Val loss: [0.04021347 4.02801609]
+Epoch 95 done.
+Train loss: [0.03676655]
+Val loss: [0.03872574 4.02372599]
+Epoch 96 done.
+Train loss: [0.03665782]
+Val loss: [0.03874896 4.02115202]
+Epoch 97 done.
+Train loss: [0.03661376]
+Val loss: [0.03997001 4.02474022]
+Epoch 98 done.
+Train loss: [0.03636607]
+Val loss: [0.03957188 4.03183222]
+Epoch 99 done.
+Train loss: [0.03633407]
+Val loss: [0.03803834 4.02809429]
+Epoch 100 done.
+Train loss: [0.03613123]
+Val loss: [0.03940763 4.03559875]
+Epoch 101 done.
+Train loss: [0.03634056]
+Val loss: [0.03804183 4.01869345]
+Epoch 102 done.
+Train loss: [0.03581021]
+Val loss: [0.03823464 4.02458477]
+Epoch 103 done.
+Train loss: [0.03557154]
+Val loss: [0.03772383 4.03911543]
+Epoch 104 done.
+Train loss: [0.03625112]
+Val loss: [0.03833271 4.02881718]
+Epoch 105 done.
+Train loss: [0.0354344]
+Val loss: [0.0387858 4.0252986]
+Epoch 106 done.
+Train loss: [0.03554375]
+Val loss: [0.03706161 4.03486061]
+Epoch 107 done.
+Train loss: [0.03510623]
+Val loss: [0.03789814 4.04590988]
+Epoch 108 done.
+Train loss: [0.03599902]
+Val loss: [0.03665246 4.01424026]
+Epoch 109 done.
+Train loss: [0.03485989]
+Val loss: [0.03673773 4.02705574]
+Epoch 110 done.
+Train loss: [0.03500777]
+Val loss: [0.03708856 4.04372835]
+Epoch 111 done.
+Train loss: [0.03541286]
+Val loss: [0.0362707  4.02301836]
+Epoch 112 done.
+Train loss: [0.03451208]
+Val loss: [0.03602508 4.046381  ]
+Epoch 113 done.
+Train loss: [0.03481387]
+Val loss: [0.0381647  4.04725075]
+Epoch 114 done.
+Train loss: [0.03499019]
+Val loss: [0.03636143 4.02842045]
+Epoch 115 done.
+Train loss: [0.03413671]
+Val loss: [0.03679714 4.05648994]
+Epoch 116 done.
+Train loss: [0.03477355]
+Val loss: [0.03659942 4.05537462]
+Epoch 117 done.
+Train loss: [0.03445557]
+Val loss: [0.03641173 4.04232264]
+Epoch 118 done.
+Train loss: [0.03412074]
+Val loss: [0.03571537 4.05354452]
+Epoch 119 done.
+Train loss: [0.03415829]
+Val loss: [0.03816964 4.06140566]
+Epoch 120 done.
+Train loss: [0.03437927]
+Val loss: [0.03595627 4.04201269]
+Epoch 121 done.
+Train loss: [0.03377161]
+Val loss: [0.03617069 4.05316877]
+Epoch 122 done.
+Train loss: [0.03379053]
+Val loss: [0.03518296 4.06199074]
+Epoch 123 done.
+Train loss: [0.03469165]
+Val loss: [0.03554529 4.03223324]
+Epoch 124 done.
+Train loss: [0.033682]
+Val loss: [0.03556031 4.04057026]
+Epoch 125 done.
+Train loss: [0.03349316]
+Val loss: [0.03521207 4.05662298]
+Epoch 126 done.
+Train loss: [0.03348229]
+Val loss: [0.03605999 4.05754757]
+Epoch 127 done.
+Train loss: [0.03355966]
+Val loss: [0.03514357 4.05617905]
+Epoch 128 done.
+Train loss: [0.03334188]
+Val loss: [0.03445443 4.05985117]
+Epoch 129 done.
+Train loss: [0.0331894]
+Val loss: [0.03460693 4.07020617]
+Epoch 130 done.
+Train loss: [0.03345861]
+Val loss: [0.03472801 4.06312799]
+Epoch 131 done.
+Train loss: [0.03297662]
+Val loss: [0.03420709 4.06277847]
+Epoch 132 done.
+Train loss: [0.03296679]
+Val loss: [0.03492934 4.06837225]
+Epoch 133 done.
+Train loss: [0.03313211]
+Val loss: [0.03433987 4.06160307]
+Epoch 134 done.
+Train loss: [0.03279526]
+Val loss: [0.03417654 4.07036352]
+Epoch 135 done.
+Train loss: [0.03269749]
+Val loss: [0.035145   4.08193445]
+Epoch 136 done.
+Train loss: [0.03339398]
+Val loss: [0.03450986 4.05606413]
+Epoch 137 done.
+Train loss: [0.03238637]
+Val loss: [0.03407155 4.06829453]
+Epoch 138 done.
+Train loss: [0.03247346]
+Val loss: [0.03455078 4.08103371]
+Epoch 139 done.
+Train loss: [0.03280943]
+Val loss: [0.0334488 4.0664978]
+Epoch 140 done.
+Train loss: [0.03210077]
+Val loss: [0.03424499 4.0832262 ]
+Epoch 141 done.
+Train loss: [0.03257625]
+Val loss: [0.03455465 4.07460499]
+Epoch 142 done.
+Train loss: [0.03214608]
+Val loss: [0.03375969 4.07568169]
+Epoch 143 done.
+Train loss: [0.03215869]
+Val loss: [0.03428976 4.07828569]
+Epoch 144 done.
+Train loss: [0.03225589]
+Val loss: [0.03443927 4.08006382]
+Epoch 145 done.
+Train loss: [0.03211279]
+Val loss: [0.03352211 4.07521486]
+Epoch 146 done.
+Train loss: [0.03193217]
+Val loss: [0.0335246  4.08197832]
+Epoch 147 done.
+Train loss: [0.03200726]
+Val loss: [0.03337522 4.08290768]
+Epoch 148 done.
+Train loss: [0.03210919]
+Val loss: [0.03416994 4.07448769]
+Epoch 149 done.
+Train loss: [0.03175654]
+Val loss: [0.03351284 4.074471  ]
+Epoch 150 done.
+Train loss: [0.03154974]
+Val loss: [0.03328501 4.08990765]
+Epoch 151 done.
+Train loss: [0.03170481]
+Val loss: [0.03346836 4.08691072]
+Epoch 152 done.
+Train loss: [0.03161798]
+Val loss: [0.033774   4.08236599]
+Epoch 153 done.
+Train loss: [0.03163443]
+Val loss: [0.03256425 4.08181858]
+Epoch 154 done.
+Train loss: [0.03150319]
+Val loss: [0.03412316 4.08450031]
+Epoch 155 done.
+Train loss: [0.03196714]
+Val loss: [0.03296649 4.07461023]
+Epoch 156 done.
+Train loss: [0.03110483]
+Val loss: [0.03293699 4.08894253]
+Epoch 157 done.
+Train loss: [0.03149366]
+Val loss: [0.03289834 4.09453011]
+Epoch 158 done.
+Train loss: [0.03128201]
+Val loss: [0.03267933 4.08220434]
+Epoch 159 done.
+Train loss: [0.03085233]
+Val loss: [0.03291126 4.09811831]
+Epoch 160 done.
+Train loss: [0.0313585]
+Val loss: [0.032938   4.08285618]
+Epoch 161 done.
+Train loss: [0.03084018]
+Val loss: [0.03237781 4.0912919 ]
+Epoch 162 done.
+Train loss: [0.03110032]
+Val loss: [0.03254402 4.08763266]
+Epoch 163 done.
+Train loss: [0.03079698]
+Val loss: [0.03258134 4.09452581]
+Epoch 164 done.
+Train loss: [0.03085405]
+Val loss: [0.03417459 4.09978342]
+Epoch 165 done.
+Train loss: [0.03101049]
+Val loss: [0.03214248 4.07736301]
+Epoch 166 done.
+Train loss: [0.03043682]
+Val loss: [0.03275129 4.0952673 ]
+Epoch 167 done.
+Train loss: [0.03108821]
+Val loss: [0.03194895 4.08631945]
+Epoch 168 done.
+Train loss: [0.03036936]
+Val loss: [0.03203912 4.09777355]
+Epoch 169 done.
+Train loss: [0.03061677]
+Val loss: [0.0322302  4.09066916]
+Epoch 170 done.
+Train loss: [0.03015844]
+Val loss: [0.03189927 4.10731888]
+Epoch 171 done.
+Train loss: [0.03119081]
+Val loss: [0.03162767 4.07548428]
+Epoch 172 done.
+Train loss: [0.03020818]
+Val loss: [0.03257636 4.09430552]
+Epoch 173 done.
+Train loss: [0.0302416]
+Val loss: [0.03226534 4.09928179]
+Epoch 174 done.
+Train loss: [0.03046951]
+Val loss: [0.03149831 4.09146309]
+Epoch 175 done.
+Train loss: [0.0299597]
+Val loss: [0.03131092 4.10376596]
+Epoch 176 done.
+Train loss: [0.03032179]
+Val loss: [0.03184237 4.09807587]
+Epoch 177 done.
+Train loss: [0.03010801]
+Val loss: [0.03126459 4.10257435]
+Epoch 178 done.
+Train loss: [0.02997661]
+Val loss: [0.03184467 4.10438967]
+Epoch 179 done.
+Train loss: [0.02998131]
+Val loss: [0.03126359 4.10652876]
+Epoch 180 done.
+Train loss: [0.02979666]
+Val loss: [0.03144263 4.10446787]
+Epoch 181 done.
+Train loss: [0.02992042]
+Val loss: [0.03143158 4.10606956]
+Epoch 182 done.
+Train loss: [0.03002424]
+Val loss: [0.03279948 4.09925127]
+Epoch 183 done.
+Train loss: [0.02971111]
+Val loss: [0.03114383 4.09706211]
+Epoch 184 done.
+Train loss: [0.0296582]
+Val loss: [0.03123144 4.10959101]
+Epoch 185 done.
+Train loss: [0.02967754]
+Val loss: [0.03117667 4.10845709]
+Epoch 186 done.
+Train loss: [0.02946073]
+Val loss: [0.03073115 4.11195707]
+Epoch 187 done.
+Train loss: [0.029348]
+Val loss: [0.03228862 4.11894846]
+Epoch 188 done.
+Train loss: [0.02982859]
+Val loss: [0.03099416 4.1040411 ]
+Epoch 189 done.
+Train loss: [0.02929648]
+Val loss: [0.03133834 4.11527777]
+Epoch 190 done.
+Train loss: [0.02966939]
+Val loss: [0.03168451 4.10420561]
+Epoch 191 done.
+Train loss: [0.02946659]
+Val loss: [0.03065319 4.10286188]
+Epoch 192 done.
+Train loss: [0.0292536]
+Val loss: [0.03048542 4.10820866]
+Epoch 193 done.
+Train loss: [0.029028]
+Val loss: [0.03149999 4.11884403]
+Epoch 194 done.
+Train loss: [0.02925647]
+Val loss: [0.03102706 4.1134305 ]
+Epoch 195 done.
+Train loss: [0.02901642]
+Val loss: [0.03171611 4.11339712]
+Epoch 196 done.
+Train loss: [0.02935704]
+Val loss: [0.03007922 4.10855436]
+Epoch 197 done.
+Train loss: [0.02884009]
+Val loss: [0.03012693 4.12048864]
+Epoch 198 done.
+Train loss: [0.02935821]
+Val loss: [0.02992322 4.10030556]
+Epoch 199 done.
+Train loss: [0.02873508]
+Val loss: [0.03003855 4.114429  ]
