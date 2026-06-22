@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Project Paper Title</title>
+    <style>
+        /* Base Paper Styling */
+        body {
+            background-color: white;
+            color: black;
+            text-align: center;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 { margin-top: 30px; }
+        p { margin-bottom: 20px; }
+
+        /* 2x2 Video Square */
+        .video-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Forces exactly 2 columns */
+            gap: 15px; /* Space between the videos */
+            margin: 30px auto;
+            width: 100%;
+        }
+
+        .video-grid video {
+            width: 100%;
+            height: auto;
+            clip-path: inset(0px); /* Removes borders perfectly */
+            display: block;
+        }
+
+        /* Table Styling */
+        table {
+            margin: 30px auto;
+            border-collapse: collapse;
+            width: 80%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th { background-color: #f9f9f9; }
+    </style>
+</head>
+<body>
+
+    <h1>Your Project Paper Title</h1>
+    <h3>By Jane Doe and John Smith</h3>
+
+    <p>
+        This is the abstract or introduction to your project paper. All of this text will be perfectly centered on a plain white background, using a clean modern font.
+    </p>
+
+    <h2>Project Demonstration</h2>
+
+    <div class="video-grid">
+        <video autoplay loop muted playsinline>
+            <source src="assets/continuous_solar_validation.mp4" type="video/mp4">
+        </video>
+        <video autoplay loop muted playsinline>
+            <source src="assets/continuous_solar_validation_v3.mp4" type="video/mp4">
+        </video>
+        <video autoplay loop muted playsinline>
+            <source src="assets/continuous_solar_validation_v4.mp4" type="video/mp4">
+        </video>
+        <video autoplay loop muted playsinline>
+            <source src="assets/continuous_solar_validation_v4_deep_rollout.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <h2>Results</h2>
+
+    <p>Below is a summary of our findings.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Model / Metric</th>
+                <th>Accuracy</th>
+                <th>Loss</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Baseline Model</td>
+                <td>85.2%</td>
+                <td>0.45</td>
+            </tr>
+            <tr>
+                <td>Proposed Method</td>
+                <td>94.7%</td>
+                <td>0.12</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
